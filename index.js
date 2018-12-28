@@ -39,13 +39,20 @@ function longPlaneteerCalls(longCalls) {
  longCalls.some (longPlaneteerCalls);
  
  
-var cheese =  ['cheddar', 'gouda', 'camembert'];
 
+var cheese  = ['cheddar', 'gouda', 'camembert']; 
+  function itsCheese(){
+  return (['span','cheddar','das'].includes(foods));
+      }
+  cheese.find(itsCheese);
+    
+  function findTheCheese (foods) {
+  foods = ['ant','cheddar','das'];
+  
+ /* var output;
+  foods = ['ant','cheddar','das'];
+   if ( ){
 
-function findTheCheese (foods) {
-  var output;
- foods = ['ant','cheddar','das'];
-   if (cheese.includes(findTheCheese) === ''){
     output = cheese.find(findTheCheese);
    console.log (output);
   }
@@ -57,4 +64,19 @@ function findTheCheese (foods) {
   return output;
 }
  console.log(findTheCheese(foods));
-
+ */
+ var output;
+ 
+ if(cheese.find(itsCheese) === 'cheedar'){
+    output = 'cheedar' ;
+  console.log(output);
+ }
+ 
+ else{
+   output = ("no cheese!");
+   console.log(output);
+ }
+ 
+ return output;
+}
+findTheCheese(foods);
