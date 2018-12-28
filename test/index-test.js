@@ -1,5 +1,5 @@
 'use strict';
-
+/*global describe,  it, expect,dwarfRollCall, summonCaptainPlanet, longPlaneteerCalls,findTheCheese */
 describe("dwarfRollCall", function() {
       it("prints out dwarfs in a numbered list based on an array'", function() {
         var dwarves = ["Dopey", "Grumpy", "Bashful"];
