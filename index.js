@@ -67,7 +67,7 @@ var cheese  = ['cheddar', 'gouda', 'camembert'];
  */
  var output;
  
- if(cheese.find(itsCheese) === 'cheedar'){
+ if(cheese.find(itsCheese) === 'cheddar'){
     output = 'cheedar' ;
   console.log(output);
  }
