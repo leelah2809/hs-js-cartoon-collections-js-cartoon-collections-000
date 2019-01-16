@@ -97,3 +97,20 @@ function findTheCheese(foods){
   return "no cheese!";
 }
 console.log(findTheCheese('ant','cheddar','das'));
+
+function wordsWithB(words){
+  words = [ants, bee, cats];
+  for (var i=0; i<=words.length; i++ ){
+    if (words[i].startsWith('b'))
+    {let result =console.log (words[i]);
+      
+    }
+    else{
+       let result = console.log (false);
+    }
+    
+  }
+  return result;
+}
+wordsWithB(words);
+
