@@ -12,11 +12,11 @@ function dwarfRollCall(dwarves) {
  function summonCaptainPlanet(planeteerCalls){
   var capital = [];
    for (var i=  0; i < planeteerCalls.length; i++){
-     planeteerCalls[i] = (planeteerCalls[i].toUpperCase() + '!');
+     planeteerCalls[i] = console.log(planeteerCalls[i].toUpperCase() + '!');
          }
    return planeteerCalls;
 }
-console.log(summonCaptainPlanet(planeteerCalls));
+(summonCaptainPlanet(planeteerCalls));
 
 
 var longCalls = ["earth", "wind", "fire", "water", "heart"];
@@ -54,21 +54,36 @@ var cheese  = ['cheddar', 'gouda', 'camembert'];
     console.log (output);
    }
 */
+<<<<<<< HEAD
 /*var cheese  = ['cheddar', 'gouda', 'camembert']; 
+=======
+var cheese  = ['cheddar', 'gouda', 'camembert']; 
+>>>>>>> 054dfae3423a02dfa4adf82393e295e78b565e12
   function findTheCheese (foods) {
    foods = ['ant','cheddar','das'];
   function itsCheese(foods){
   return (['sub','cheddar','malt'].includes(foods));
       }
   cheese.find(itsCheese);
+<<<<<<< HEAD
   
   if(cheese.find(itsCheese) === 'cheddar'){
     return ('cheddar') ;
   }
+=======
+ var output;
+ 
+ if(cheese.find(itsCheese) === 'cheddar'){
+    return ('cheddar') ;
+  
+ }
+
+>>>>>>> 054dfae3423a02dfa4adf82393e295e78b565e12
   return ("no cheese!");
 }
 //findTheCheese(foods);
 findTheCheese(['mouse','cow','pig']);
+<<<<<<< HEAD
 */
 function findTheCheese(foods){
   var cheese = ["camembert", "cheddar","gouda"];
@@ -82,3 +97,9 @@ function findTheCheese(foods){
   return "no cheese!";
 }
 console.log(findTheCheese('ant','cheddar','das'));
+=======
+/*
+findTheCheese(['ant','cheddar','das']);
+findTheCheese(['ant','cow','das']);
+*/
+>>>>>>> 054dfae3423a02dfa4adf82393e295e78b565e12
