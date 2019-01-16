@@ -97,9 +97,3 @@ function findTheCheese(foods){
   return "no cheese!";
 }
 console.log(findTheCheese('ant','cheddar','das'));
-=======
-/*
-findTheCheese(['ant','cheddar','das']);
-findTheCheese(['ant','cow','das']);
-*/
->>>>>>> 054dfae3423a02dfa4adf82393e295e78b565e12
